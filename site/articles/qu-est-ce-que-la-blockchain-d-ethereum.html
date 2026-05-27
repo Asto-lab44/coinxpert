@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Qu'est-ce que la blockchain d'Ethereum ? — CoinXpert</title>
+<meta name="description" content="La blockchain est au cœur du fonctionnement d'Ethereum, elle constitue la base de données qui renferme les informations utilisées par le protocole. La blockchain Ethereum est similaire à celle de Bitc">
+<link rel="canonical" href="https://www.coinxpert.fr/articles/qu-est-ce-que-la-blockchain-d-ethereum.html">
+<meta property="og:title" content="Qu'est-ce que la blockchain d'Ethereum ? — CoinXpert">
+<meta property="og:description" content="La blockchain est au cœur du fonctionnement d'Ethereum, elle constitue la base de données qui renferme les informations utilisées par le protocole. La blockchain Ethereum est similaire à celle de Bitc">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.coinxpert.fr/articles/qu-est-ce-que-la-blockchain-d-ethereum.html">
+<meta property="og:image" content="https://www.coinxpert.fr/assets/img/logo.png">
+<link rel="icon" href="../assets/img/favicon.png">
+<link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&family=Open+Sans:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="../assets/css/style.css">
+
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a href="../index.html" class="brand">
+      <img src="../assets/img/logo.png" alt="CoinXpert">
+    </a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false" onclick="document.getElementById('menu').classList.toggle('open');this.setAttribute('aria-expanded',document.getElementById('menu').classList.contains('open'))">☰</button>
+    <ul class="menu" id="menu">
+      <li><a href="../index.html">Accueil</a></li>
+      <li><a href="../cabinet.html">Le cabinet</a></li>
+      <li><a href="../metiers.html">Nos métiers</a></li>
+      <li><a href="../ressources.html" class="active">Ressources crypto</a></li>
+      <li><a href="../contact.html" class="btn">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+
+<div class="article">
+  <a href="../ressources.html" class="back-link">← Toutes les ressources</a>
+  <header>
+    <span class="tag">Ethereum</span>
+    <h1>Qu'est-ce que la blockchain d'Ethereum ?</h1>
+    <time>2021-05-02</time>
+  </header>
+  <div class="body">
+<p>La blockchain est au cœur du fonctionnement d'Ethereum, elle constitue la base de données qui renferme les informations utilisées par le protocole. La blockchain Ethereum est similaire à celle de Bitcoin, bien que les données qu'elle stocke et la façon dont elle les stocke soient différentes.</p>
+
+<p><strong>La blockchain est au cœur du fonctionnement d'Ethereum, elle constitue la base de données qui renferme les informations utilisées par le protocole. La blockchain Ethereum est similaire à celle de Bitcoin, bien que les données qu'elle stocke et la façon dont elle les stocke soient différentes.</strong></p>
+<p>Pour simplifier on peut considérer la blockchain Ethereum comme un livre auquel on ajoute constamment des pages. Chaque page est en fait un bloc, rempli d'informations concernant les transactions. Lorsque l'on veut ajouter une nouvelle page, l'on doit inclure une valeur spéciale en haut de cette page. Cette valeur est là pour permettre à quiconque de confirmer que la nouvelle page a bien été ajoutée après la page précédente, et pas seulement insérée aléatoirement dans le livre.<br />En substance, cela s'apparenterait à un numéro de page qui ferait référence à la page précédente. En consultant la nouvelle page, nous pouvons dire avec certitude qu'elle suit la précédente. Pour ce faire, on utilise un processus appelé hachage.</p>
+<p>Le hachage sélectionne et regroupe des données ici, la totalité de notre page et produit un identifiant unique (un hachage ou hash). Les chances d'avoir deux groupes de données qui donneraient le même hachage sont astronomiquement basses. <strong>C'est aussi un processus à sens unique : vous pouvez facilement calculer un hachage, mais il est pratiquement impossible pour vous d'inverser le hachage afin d'obtenir les informations utilisées en entrée pour le créer.</strong></p>
+<p>Nous avons donc en définitive un mécanisme pour relier nos pages les unes aux autres et dans le bon ordre, de sorte à ce que toute tentative de supprimer ou de changer l'ordre des pages soit impossible à dissimuler. Ainsi notre livre est quasiment impossible à falsifier.</p>
+<h2>Comment fonctionne Ethereum ?</h2>
+<p>Nous pourrions définir Ethereum comme une machine d'état. Cela signifie que, à n'importe quel moment donné, il peut fournir un snapshot, ou arrêt sur image de l'état actuel de tous les soldes de compte et des contrats intelligents. <strong>Certaines actions entraînent une mise à jour de cet état, ce qui signifie que tous les noeuds doivent eux aussi mettre à jour leur propres snapshots pour refléter ces changements.</strong></p>
+<p>Les contrats intelligents qui s'exécutent sur Ethereum sont déclenchés par des transactions (provenant d'utilisateurs ou d'autres contrats). Lorsqu'un utilisateur envoie une transaction à un contrat, chaque nœud du réseau exécute le code du contrat et enregistre la sortie. Ils font cela en utilisant la machine virtuelle Ethereum (EVM), qui convertit les contrats intelligents en instructions que l'ordinateur peut lire.</p>
+<p>Pour mettre à jour l'état, un mécanisme spécial appelé minage entre en jeu. Le minage est fait avec un algorithme Proof of Work, ou Preuve de Travail, tout comme Bitcoin.</p>
+<h2>Qu'est-ce qu'un contrat intelligent ?</h2>
+<p><strong>Un contrat intelligent, c'est juste et simplement du code. Le code n'est ni intelligent, ni un contrat au sens traditionnel. On le désigne comme intelligent qu'il peut s'exécuter tout seul dans certaines conditions, et on le désigne comme car il applique et met en oeuvre des accords entre des parties.</strong></p>
+<p>L'informaticien Nick Szabo peut être crédité de l'idée, qu'il proposa à la fin des années 1990. Il a utilisé l'exemple d'un distributeur automatique pour expliquer le concept, en précisant que ce genre de machine pourrait être considéré comme précurseur du contrat intelligent moderne. Dans le cas d'un distributeur automatique, il y a un contrat simple qui s’exécute. Les utilisateurs insèrent des pièces et, en retour, la machine distribue le produit de leur choix.</p>
+<p><strong>Un contrat intelligent applique ce type de logique dans un cadre numérique. Vous pouvez spécifier quelque chose de simple dans le code comme écrire “Bonjour Tout Le Monde !” lorsque deux ether sont envoyés à ce contrat.</strong></p>
+<p>Sur Ethereum, le développeur coderait ceci pour que cela puisse être lu plus tard par l'EVM. Il le publie ensuite en l'envoyant à une adresse spéciale qui enregistre le contrat. À partir de ce stade, tout le monde peut l'utiliser. Et le contrat ne pourra plus être supprimé, sauf si une condition est spécifiée par le développeur lors de son codage.</p>
+<p>Le contrat possède maintenant une adresse. Pour interagir avec cette dernière, les utilisateurs ont simplement besoin d'envoyer 2 ETH à cette adresse. Cela déclenchera l’exécution du code du contrat, tous les ordinateurs du réseau le mettront à l'oeuvre, vérifieront qu'un paiement a bien été fait au contrat, et enregistreront la sortie ( "Bonjour Tout Le Monde!").<br />L'exemple utilisé ici est évidemment l'un des plus basique quant à ce qui peut être réalisé avec Ethereum. Des applications plus sophistiquées qui connectent plusieurs contrats entre eux peuvent être et ont été développées.</p>
+<h3>Comment de nouveaux ethers sont-ils créés ?</h3>
+<p>Si vous êtes familier avec le fonctionnement de Bitcoin, vous savez donc que le minage est une composante essentielle de la sécurité et de l'évolutivité de la blockchain. Sur Ethereum, ce principe est le même : pour récompenser les utilisateurs qui minent (le minage est une activité coûteuse), le protocole leur attribue des récompenses dénombrées en ether.<br />Quelle quantité d'ether existe-t-il ?</p>
+<p><strong>En février 2020, l'offre totale d'ether se situait aux environs de 110 millions d'unités.</strong></p>
+<p>Contrairement à Bitcoin, le schéma d'émission de coins sur Ethereum ne fut intentionnellement pas décidé au lancement. Ethereum vise à fournir une base pour les applications décentralisées (DApps). Comme il est difficile de savoir quel type de modèle d'émission de coins correspond le mieux à cet objectif, la question reste ouverte.</p>
+<h3>Comment fonctionne le minage d'Ethereum ?</h3>
+<p>Le minage est essentiel à la sécurité du réseau. Il garantit que la blockchain puisse être mise à jour équitablement et permet au réseau de fonctionner sans décideur unique. Dans le minage, un sous-ensemble de nœuds (les bien nommés mineurs) consacre sa puissance informatique à la résolution d'un puzzle cryptographique.<br />Ce qu'ils effectuent factuellement, c'est le hachage d'un ensemble de transactions en attente couplé avec d'autres données. Pour que le bloc soit considéré comme valide, le hachage doit tomber en dessous d'une valeur définie par le protocole. <strong>S'ils échouent, ils peuvent modifier certaines données et réessayer.</strong></p>
+<p>Pour rivaliser avec leurs pairs, les mineurs doivent donc être en mesure de hacher le plus rapidement possible nous mesurons leur puissance en taux de hachage. Plus il y a de taux de hachage sur le réseau, plus le puzzle devient difficile à résoudre. <strong>Seuls les mineurs doivent calculer et trouver la solution, une fois celle-ci déterminée, il devient facile pour tous les autres participants de vérifier sa validité.</strong></p>
+<p>Comme vous pouvez l'imaginer, le hachage continu et à haute vitesse se trouve être coûteux. Pour encourager les mineurs à sécuriser le réseau, ils gagnent une récompense. Cette récompense est composée de tous les frais rattachés aux transactions du bloc. Ils reçoivent également de l'éther nouvellement généré.</p>
+  </div>
+
+  <div class="spacer"></div>
+  <div style="background:#f6f9ff;border-radius:14px;padding:1.6rem;text-align:center">
+    <h3 style="margin:0 0 .4rem">Une question fiscale sur vos crypto-actifs ?</h3>
+    <p style="margin:0 0 1rem;color:#555">Un cabinet d'expertise comptable spécialisé répond à vos questions.</p>
+    <a href="../contact.html" class="btn btn-primary">Prendre contact</a>
+    <a href="tel:+33241001133" class="btn btn-outline">📞 02 41 00 11 33</a>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img src="../assets/img/logo.png" alt="CoinXpert">
+      <p>CoinXpert — Cabinet d'expertise comptable indépendant spécialisé dans les cryptomonnaies. Basé à Nantes, nous accompagnons particuliers et professionnels.</p>
+    </div>
+    <div>
+      <h4>Le cabinet</h4>
+      <ul>
+        <li><a href="../cabinet.html">Présentation</a></li>
+        <li><a href="../cabinet.html#valeurs">Nos valeurs</a></li>
+        <li><a href="../cabinet.html#equipe">Notre équipe</a></li>
+        <li><a href="../contact.html#implantations">Nos implantations</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Nos métiers</h4>
+      <ul>
+        <li><a href="../metiers.html">Expertise comptable</a></li>
+        <li><a href="../metiers.html">Création d'entreprise</a></li>
+        <li><a href="../metiers.html">Crypto-actifs</a></li>
+        <li><a href="../metiers.html">Voir tout</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="tel:+33241001133">02 41 00 11 33</a></li>
+        <li><a href="mailto:contact@coinxpert.fr">contact@coinxpert.fr</a></li>
+        <li>Lun–Ven : 9h–12h30 / 14h–18h</li>
+        <li><a href="../contact.html">Formulaire</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container copyright">
+    <span>© <span id="year">2026</span> CoinXpert — Tous droits réservés</span>
+    <span>
+      <a href="../mentions-legales.html">Mentions légales</a>
+      <a href="../politique-rgpd.html">Politique RGPD</a>
+    </span>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+
+</body>
+</html>

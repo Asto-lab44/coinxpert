@@ -1,0 +1,15 @@
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="brand">
+      <img src="assets/img/logo.png" alt="CoinXpert">
+    </a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false" onclick="document.getElementById('menu').classList.toggle('open');this.setAttribute('aria-expanded',document.getElementById('menu').classList.contains('open'))">☰</button>
+    <ul class="menu" id="menu">
+      <li><a href="index.html"{{ACTIVE_home}}>Accueil</a></li>
+      <li><a href="cabinet.html"{{ACTIVE_cabinet}}>Le cabinet</a></li>
+      <li><a href="metiers.html"{{ACTIVE_metiers}}>Nos métiers</a></li>
+      <li><a href="ressources.html"{{ACTIVE_ressources}}>Ressources crypto</a></li>
+      <li><a href="contact.html" class="btn">Contact</a></li>
+    </ul>
+  </div>
+</header>
