@@ -1,0 +1,44 @@
+# Secrets — NE JAMAIS COMMIT
+configuration.php
+*.env
+.env
+.env.*
+*-secrets.*
+*credentials*
+
+# Sauvegardes locales
+*.sql
+*.sql.gz
+*.tar.gz
+*.zip
+backups/
+dumps/
+
+# Joomla — fichiers générés / cache / temp
+/cache/*
+!/cache/index.html
+/administrator/cache/*
+!/administrator/cache/index.html
+/tmp/*
+!/tmp/index.html
+/logs/*
+!/logs/index.html
+/administrator/logs/*
+!/administrator/logs/index.html
+
+# Sessions
+/sessions/
+
+# Médias uploadés par les utilisateurs (à voir au cas par cas)
+# /images/uploads/
+
+# Système
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# IDE
+.idea/
+.vscode/
+*.iml
