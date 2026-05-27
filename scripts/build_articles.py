@@ -112,13 +112,12 @@ def render(title, description, slug, body_html, tag, date):
 {body_html}
   </div>
 
-  <div class="article-cta">
-    <h3>Une question fiscale sur vos crypto-actifs ?</h3>
-    <p>Un cabinet d'expertise comptable spécialisé répond à vos questions.</p>
-    <div class="cta-row" style="justify-content:center">
-      <a href="../contact.html" class="btn btn-primary">Prendre contact</a>
-      <a href="tel:+33241001133" class="btn btn-outline">📞 02 41 00 11 33</a>
-    </div>
+  <div class="spacer"></div>
+  <div style="background:#f6f9ff;border-radius:14px;padding:1.6rem;text-align:center">
+    <h3 style="margin:0 0 .4rem">Une question fiscale sur vos crypto-actifs ?</h3>
+    <p style="margin:0 0 1rem;color:#555">Un cabinet d'expertise comptable spécialisé répond à vos questions.</p>
+    <a href="../contact.html" class="btn btn-primary">Prendre contact</a>
+    <a href="tel:+33241001133" class="btn btn-outline">📞 02 41 00 11 33</a>
   </div>
 </div>
 
