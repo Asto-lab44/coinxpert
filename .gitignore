@@ -42,3 +42,6 @@ Thumbs.db
 .idea/
 .vscode/
 *.iml
+
+# Backup local du Joomla original (gros et contient des secrets)
+_backup_local/
