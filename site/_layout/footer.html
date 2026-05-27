@@ -2,7 +2,7 @@
   <div class="container footer-grid">
     <div class="footer-brand">
       <img src="assets/img/logo.png" alt="CoinXpert">
-      <p>CoinXpert — Cabinet d'expertise comptable indépendant spécialisé dans les cryptomonnaies. Basé à Nantes, nous accompagnons particuliers et professionnels.</p>
+      <p>CoinXpert — Le cabinet d'expertise comptable spécialisé dans les cryptomonnaies. Nantes, Loire-Atlantique.</p>
     </div>
     <div>
       <h4>Le cabinet</h4>
@@ -10,16 +10,16 @@
         <li><a href="cabinet.html">Présentation</a></li>
         <li><a href="cabinet.html#valeurs">Nos valeurs</a></li>
         <li><a href="cabinet.html#equipe">Notre équipe</a></li>
-        <li><a href="contact.html#implantations">Nos implantations</a></li>
+        <li><a href="contact.html#implantations">Implantations</a></li>
       </ul>
     </div>
     <div>
-      <h4>Nos métiers</h4>
+      <h4>Expertises</h4>
       <ul>
         <li><a href="metiers.html">Expertise comptable</a></li>
-        <li><a href="metiers.html">Création d'entreprise</a></li>
         <li><a href="metiers.html">Crypto-actifs</a></li>
-        <li><a href="metiers.html">Voir tout</a></li>
+        <li><a href="metiers.html">Création d'entreprise</a></li>
+        <li><a href="ressources.html">Ressources</a></li>
       </ul>
     </div>
     <div>
@@ -40,4 +40,9 @@
     </span>
   </div>
 </footer>
-<script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+// Scroll reveal
+const io = new IntersectionObserver(es => es.forEach(e => e.isIntersecting && e.target.classList.add('in')), {threshold:.12});
+document.querySelectorAll('[data-reveal]').forEach(el => io.observe(el));
+</script>
